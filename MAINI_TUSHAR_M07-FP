@@ -1,3 +1,19 @@
+# Name of the Submission: Trainers/enrollees
+# Author of the Submission: Tushar Maini 
+# Overview/Objective of this Submission: The creation of a program that gathers information on the quantity 
+# of new members that 15 trainers at Wally's Training Gym have joined is the aim of this submission. 
+# The software then shows the number of trainers in each category and groups the trainers according to 
+# how many new enrollees each one has.
+# Variables Used: trainers (list): 
+# A list of tuples where each tuple contains a trainer's last name (string) and the number of new enrollees (integer).
+# category1 (int): Counter for trainers who enrolled 0-5 new members.
+# category2 (int): Counter for trainers who enrolled 6-10 new members.
+# category3 (int): Counter for trainers who enrolled 11-15 new members.
+# num_trainers (int): Total number of trainers to be entered (15).
+
+
+
+
     trainers = [15]
     num_trainers = 15
     
@@ -26,3 +42,6 @@
 
 if __name__ == "__main__":
     main()
+
+
+
