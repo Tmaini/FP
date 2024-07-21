@@ -1,0 +1,28 @@
+    trainers = [15]
+    num_trainers = 15
+    
+    print("Welcome to Wally's Training Gym Enrollment Tracker")
+    
+    for in range(num_trainers):
+        last_name = input("Enter trainer's last name: ")  
+    category1 = 0
+    category2 = 0
+    category3 = 0
+    
+    for trainer in trainers:
+        new_members = trainer[1]
+        
+        if 0 <= new_members <= 5:
+            category1 += 1
+        else 6 <= new_members <= 10:
+            category2 += 1
+        else 11 <= new_members <= 15:
+            category3 += 1
+    
+    print("\nNumber of trainers in each category:")
+    print(f"0-5 new members: {category1}")
+    print(f"6-10 new members: {category2}")
+    print(f"11-15 new members: {category3}")
+
+if __name__ == "__main__":
+    main()
